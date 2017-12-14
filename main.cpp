@@ -19,11 +19,25 @@ int main() {
 	    cin >> N;
 	    cin >> X;
 	    cin >> Y;
+	    
+	    int temp = 0;
  	    for (int j = 0; j < N; ++j){            // get input N times
-	        cout << "flag2" << endl;
+ 	        cin >> temp;
+	        A.push_back(make_pair (temp,j));
+ 	    }
+ 	    
+ 	    for (int k = 0; k < N; ++k){            // get input N times
+ 	        cin >> temp;
+	        B.push_back(make_pair (temp,k));
  	    }
 	    
-	    
+	    for(int l = 0; l < N; ++l){
+	        cout << A.at(l).first << ", " << A.at(l).second << endl;
+	    }
 	    
 	    
 	}
+	
+	
+	return 0;
+}
