@@ -107,12 +107,12 @@ int main() {
  	    		if(set_vector.at(curr).diff > 0){
  	    			total_tips += set_vector.at(curr).a;
  	    			--X;
- 	    		 	cout << "given to X, total: " << total_tips << endl;
+//  	    		 	cout << "given to X, total: " << total_tips << endl;
  	    		}
  	    		else{
  	    			total_tips += set_vector.at(curr).b;
  	    			--Y;
- 	    		 	cout << "given to Y, total: " << total_tips << endl;
+//  	    		 	cout << "given to Y, total: " << total_tips << endl;
  	    		}
  	    		++curr;
  	    }
